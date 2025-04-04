@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="m-4 py-5">
+
+    <h1 class="mb-4 text-center">Registration Form</h1>
+  
+    <form>
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="firstName" required>
+        </div>
+        <div class="col-md-6">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="lastName" required>
+        </div>
+      </div>
+  
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+  
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="password" required>
+      </div>
+  
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="terms" required>
+        <label class="form-check-label" for="terms">
+          I agree to the terms and conditions
+        </label>
+      </div>
+  
+      <button type="submit" class="btn btn-success w-100">Submit</button>
+    </form>
+    <h2 class="mb-4">Pre-Populated Submissions</h2>
+  <table class="table table-striped table-hover">
+    <thead class="table-dark">
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Jim Mih</td>
+        <td>jim@example.com</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Jane Nie</td>
+        <td>jane@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="bm-4">
+    <img src="https://images.pexels.com/photos/31433505/pexels-photo-31433505/free-photo-of-stunning-sunset-over-yunnan-rice-terraces.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="rounded container-fluid" alt="rice fields">
+    <img src="https://images.pexels.com/photos/5667448/pexels-photo-5667448.jpeg?auto=compress&cs=tinysrgb&w=1600" width="1200" height="1200" class="rounded-circle container-fluid" alt="360 view">    
+  </div>
+  <div class="container">
+    <button type="button" class="btn btn-primary btn-lg">Button 1</button>
+    <button type="button" class="btn btn-success btn-sm d-none d-md-inline">Button 2</button>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning rounded m-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NavBar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+</body>
+</html>
